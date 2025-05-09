@@ -440,32 +440,32 @@
                     <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/">
+                            <a class="nav-link" href="/chu">
                                 <div class="parent-icon"><i class='bx bx-cookie'></i>
                                 </div>
-                                <div class="menu-title">Home</div>
+                                <div class="menu-title">Trang Chu</div>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/admin/nghesi">
+                            <a class="nav-link" href="/thu">
                                 <div class="parent-icon"><i class='bx bx-cookie'></i>
                                 </div>
-                                <div class="menu-title">Nghệ sĩ</div>
+                                <div class="menu-title">Thu Nhập</div>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/admin/sinhvien">
+                            <a class="nav-link" href="/chi">
                                 <div class="parent-icon"><i class='bx bx-cookie'></i>
                                 </div>
-                                <div class="menu-title">Sinh viên</div>
+                                <div class="menu-title">Chi Tiêu</div>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/btvn/btvnb12">
                                 <div class="parent-icon"><i class='bx bx-cookie'></i>
                                 </div>
-                                <div class="menu-title">BTVNB12</div>
+                                <div class="menu-title">....</div>
                             </a>
                         </li>
                     </ul>
