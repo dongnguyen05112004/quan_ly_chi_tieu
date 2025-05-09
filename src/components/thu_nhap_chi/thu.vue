@@ -24,12 +24,13 @@
                     </div>
                 </div>
                 <div class="card-body">
-                   
+
                     <nav class="nav nav-pills mt-3">
                         <h5></h5>
                         <p class="mt-2 text-dark" style="font-size: 18px">Lương</p>
                         <a class="flex-sm-fill text-end" aria-current="page" href="#">
-                            <button class="btn btn-warning ms-2">Cập nhật</button>
+                            <button data-bs-toggle="modal" data-bs-target="#capnhat" class="btn btn-warning ms-2">Cập
+                                nhật</button>
                             <button class="btn btn-danger ms-2" data-bs-toggle="modal"
                                 data-bs-target="#xoa">Xóa</button>
                         </a>
@@ -39,7 +40,8 @@
                         <h5></h5>
                         <p class="mt-2 text-dark" style="font-size: 18px">Thưởng</p>
                         <a class="flex-sm-fill text-end" aria-current="page" href="#">
-                            <button class="btn btn-warning ms-2">Cập nhật</button>
+                            <button data-bs-toggle="modal" data-bs-target="#capnhat" class="btn btn-warning ms-2">Cập
+                                nhật</button>
                             <button class="btn btn-danger ms-2" data-bs-toggle="modal"
                                 data-bs-target="#xoa">Xóa</button>
                         </a>
@@ -49,7 +51,8 @@
                         <h5></h5>
                         <p class="mt-2 text-dark" style="font-size: 18px">Thu hồi nợ</p>
                         <a class="flex-sm-fill text-end" aria-current="page" href="#">
-                            <button class="btn btn-warning ms-2">Cập nhật</button>
+                            <button data-bs-toggle="modal" data-bs-target="#capnhat" class="btn btn-warning ms-2">Cập
+                                nhật</button>
                             <button class="btn btn-danger ms-2" data-bs-toggle="modal"
                                 data-bs-target="#xoa">Xóa</button>
                         </a>
@@ -59,7 +62,8 @@
                         <h5></h5>
                         <p class="mt-2 text-dark" style="font-size: 18px">Trợ cấp</p>
                         <a class="flex-sm-fill text-end" aria-current="page" href="#">
-                            <button class="btn btn-warning ms-2">Cập nhật</button>
+                            <button data-bs-toggle="modal" data-bs-target="#capnhat" class="btn btn-warning ms-2">Cập
+                                nhật</button>
                             <button class="btn btn-danger ms-2" data-bs-toggle="modal"
                                 data-bs-target="#xoa">Xóa</button>
                         </a>
@@ -69,7 +73,8 @@
                         <h5></h5>
                         <p class="mt-2 text-dark" style="font-size: 18px">Lợi nhuận</p>
                         <a class="flex-sm-fill text-end" aria-current="page" href="#">
-                            <button class="btn btn-warning ms-2">Cập nhật</button>
+                            <button data-bs-toggle="modal" data-bs-target="#capnhat" class="btn btn-warning ms-2">Cập
+                                nhật</button>
                             <button class="btn btn-danger ms-2" data-bs-toggle="modal"
                                 data-bs-target="#xoa">Xóa</button>
                         </a>
@@ -79,7 +84,8 @@
                         <h5></h5>
                         <p class="mt-2 text-dark" style="font-size: 18px">Kinh doanh</p>
                         <a class="flex-sm-fill text-end" aria-current="page" href="#">
-                            <button class="btn btn-warning ms-2">Cập nhật</button>
+                            <button data-bs-toggle="modal" data-bs-target="#capnhat" class="btn btn-warning ms-2">Cập
+                                nhật</button>
                             <button class="btn btn-danger ms-2" data-bs-toggle="modal"
                                 data-bs-target="#xoa">Xóa</button>
                         </a>
@@ -91,30 +97,12 @@
                 <div class="card-body">
                     <div class="card">
                         <div class="card-body">
-
-                            thong kê nguồn thu nhập
-                            <div class="chart-container1">
-                                <div class="chartjs-size-monitor"
-                                    style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
-                                    <div class="chartjs-size-monitor-expand"
-                                        style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                                        <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0">
-                                        </div>
-                                    </div>
-                                    <div class="chartjs-size-monitor-shrink"
-                                        style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                                        <div style="position:absolute;width:200%;height:200%;left:0; top:0"></div>
-                                    </div>
-                                </div>
-                                <canvas id="chart1" width="1183" height="425"
-                                    style="display: block; height: 340px; width: 947px;"
-                                    class="chartjs-render-monitor"></canvas>
-                            </div>
+                            <img src="https://www.jaspersoft.com/content/dam/jaspersoft/images/graphics/infographics/donut-chart-example.svg"
+                                height="100px" class="img-fluid" alt="...">
                         </div>
                     </div>
                 </div>
             </div>
-            
 
         </div>
         <div class="col-lg-6">
@@ -143,7 +131,7 @@
                         <label for="exampleInputPassword1" class="form-label">Ngày nhận</label>
                         <input type="date" class="form-control" id="exampleInputPassword1">
                     </div>
-                     <div class="mb-3">
+                    <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Mô tả</label>
                         <input type="text" class="form-control" id="exampleInputPassword1">
                     </div>
@@ -152,8 +140,125 @@
                     <button class="btn btn-success ">Thêm</button>
                 </div>
             </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-xanh-mong-ket-thumbnew-600x600.png"
+                                    height="100px" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Iphone 16</h6>
+                                    <div class="cursor-pointer my-2">
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-secondary"></i>
+                                    </div>
+                                    <div class="clearfix">
+                                        <p class="mb-0 float-start fw-bold"><span
+                                                class="me-2 text-decoration-line-through text-secondary">$999</span><span>$998</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://shopdunk.com/images/thumbs/0027483_airpods-2-chinh-hang-cu-dep.jpeg"
+                                    height="100px" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Airpod 4</h6>
+                                    <div class="cursor-pointer my-2">
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-secondary"></i>
+                                    </div>
+                                    <div class="clearfix">
+                                        <p class="mb-0 float-start fw-bold"><span
+                                                class="me-2 text-decoration-line-through text-secondary">$1000</span><span>$99</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://cdn2.fptshop.com.vn/unsafe/asus_vivobook_16x_oled_k3605_black_db8160da4f.png"
+                                    height="100px" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Laptop Asus</h6>
+                                    <div class="cursor-pointer my-2">
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-secondary"></i>
+                                    </div>
+                                    <div class="clearfix">
+                                        <p class="mb-0 float-start fw-bold"><span
+                                                class="me-2 text-decoration-line-through text-secondary">$999</span><span>$998</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://didonghan.vn/pic/product/1fd3d02d-5d31-45ac-8100-132dc8ce5e98.jpg"
+                                    height="100px" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Samsung Z Flip 4 </h6>
+                                    <div class="cursor-pointer my-2">
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-warning"></i>
+                                        <i class="bx bxs-star text-secondary"></i>
+                                    </div>
+                                    <div class="clearfix">
+                                        <p class="mb-0 float-start fw-bold"><span
+                                                class="me-2 text-decoration-line-through text-secondary">$1010</span><span>$1000</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+
+
 
     <div class="modal fade" id="xoa" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -168,11 +273,43 @@
                         <p>Bạn chắc chắn muốn xóa nguồn thu nhập này</p>
                         <p>Chú ý: Nguồn thu nhập này sẽ không thể khôi phục lại</p>
                     </h6>
-                    
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
                     <button type="button" class="btn btn-danger">Xóa</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="capnhat" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-warning">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Cập nhật nguồn thu nhập</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Số tiền</label>
+                        <input type="number" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Ngày nhận</label>
+                        <input type="date" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Mô tả</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="button" class="btn btn-warning">Cập nhật</button>
                 </div>
             </div>
         </div>
