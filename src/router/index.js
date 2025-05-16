@@ -13,7 +13,8 @@ const routes = [
    {
     path: "/chi",
     component: () => import("../components/thu_nhap_chi/chi.vue"),
-   }, 
+   },
+   
 
     
 ]

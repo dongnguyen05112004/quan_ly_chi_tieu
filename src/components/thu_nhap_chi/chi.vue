@@ -321,6 +321,16 @@
 </template>
 <script>
 export default {
+    data() {
+        return {
+            taikhaon: {
+                taikhoan: '',
+                matkhau: '',
+            },
+        }
+    },
+
+    
 
 }
 </script>

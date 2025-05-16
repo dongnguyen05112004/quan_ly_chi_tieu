@@ -1,7 +1,5 @@
 <template >
-    <div>
-        trang chu
-    </div>
+    code o day
 </template>
 <script>
 export default {
