@@ -14,7 +14,10 @@ const routes = [
     path: "/chi",
     component: () => import("../components/thu_nhap_chi/chi.vue"),
    },
-   
+   {
+    path: "/thong-tin-ca-nhan",
+    component: () => import("../components/khach_hang/thongtin.vue"),
+   }
 
     
 ]
