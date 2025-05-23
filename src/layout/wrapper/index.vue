@@ -438,12 +438,12 @@
                 </div>
                 <nav class="navbar navbar-expand-xl w-100">
                     <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
-
+                        
                         <li class="nav-item">
-                            <a class="nav-link" href="/chu">
+                            <a class="nav-link" href="/bao-cao">
                                 <div class="parent-icon"><i class='bx bx-cookie'></i>
                                 </div>
-                                <div class="menu-title">Trang Chu</div>
+                                <div class="menu-title">Báo cáo thống kê</div>
                             </a>
                         </li>
 
@@ -461,17 +461,18 @@
                                 <div class="menu-title">Chi Tiêu</div>
                             </a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="/baocao">
+                            <a class="nav-link" href="/ngan-sach">
                                 <div class="parent-icon"><i class='bx bx-cookie'></i>
                                 </div>
-                                <div class="menu-title">Báo cáo thống kê</div>
+                                <div class="menu-title">Ngân sách</div>
                             </a>
                         </li>
                     </ul>
                 </nav>
                 <!--end navigation-->
-            </div> 
+            </div>
         </div>
         <!--end header wrapper-->
         <!--start page wrapper -->

@@ -19,11 +19,10 @@ const routes = [
     component: () => import("../components/khach_hang/thongtin.vue"),
    },
    {
-    path: "/baocao",
+    path: "/bao-cao",
     component: () => import("../components/baocao_thongke/baocao.vue"),
    },
    {
-
     path: "/dang-nhap",
     component: () => import("../components/admin/dang-nhap.vue"),
     meta: { layout: "blank" },
@@ -31,15 +30,16 @@ const routes = [
    {
     path: "/quan-ly-tai-khoan",
     component: () => import("../components/admin/quan_ly_tai_khoan.vue"),
-    // meta: { layout: "blank" },
+     meta: { layout: "blank" },
    },
     {
-    path: "/dangky",
+    path: "/dang-ky",
     component: () => import("../components/dangky/index.vue"),
+    meta: { layout: "blank" },
    },
-      {
-    path: "/ngansach",
-    component: () => import("../components/ngansach/index.vue"),
+   {
+      path: "/ngan-sach",
+      component: () => import("../components/ngansach/index.vue"),
    },
 
    
