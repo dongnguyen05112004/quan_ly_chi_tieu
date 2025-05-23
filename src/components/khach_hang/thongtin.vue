@@ -48,24 +48,23 @@
                                                     </div>
                                                     <div class="col-md-6">
                                                         <label class="form-label">Email</label>
-                                                        <input  type="email"
-                                                            class="form-control" placeholder="example@email.com">
+                                                        <input  type="email" class="form-control" placeholder="example@email.com">
                                                     </div>
+
                                                     <div class="col-md-6">
+
                                                         <label class="form-label">Số điện thoại</label>
                                                         <input  type="tel"
                                                             class="form-control" placeholder="0123 456 789">
                                                     </div>
                                                     <div class="col-6">
                                                         <label class="form-label">Ảnh đại diện</label>
-                                                        <input  type="text" class="form-control"
-                                                            placeholder="Nhập vào link">
+                                                        <input  type="text" class="form-control" placeholder="Nhập vào link">
                                                     </div>
                                                 </div>
                                                 <div class="text-end mt-4">
                                                     <button type="button" class="btn btn-light me-2">Huỷ</button>
-                                                    <button type="button" 
-                                                        class="btn btn-primary px-4">Lưu thay
+                                                    <button type="button" class="btn btn-primary px-4">Lưu thay
                                                         đổi</button>
                                                 </div>
                                             </form>
