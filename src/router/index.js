@@ -23,6 +23,17 @@ const routes = [
     component: () => import("../components/baocao_thongke/baocao.vue"),
    },
    {
+<<<<<<< Duc
+    path: "/dang-nhap",
+    component: () => import("../components/admin/dang-nhap.vue"),
+    meta: { layout: "blank" },
+   },
+   {
+    path: "/quan-ly-tai-khoan",
+    component: () => import("../components/admin/quan_ly_tai_khoan.vue"),
+    // meta: { layout: "blank" },
+   },
+=======
     path: "/dangky",
     component: () => import("../components/dangky/index.vue"),
    },
@@ -32,6 +43,7 @@ const routes = [
    },
 
    
+>>>>>>> main
 
     
 ]

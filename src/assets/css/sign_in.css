@@ -1,0 +1,77 @@
+/* Reset CSS  */
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; /* để các div tự tính toán kích thước giữa padding, border và content */
+}
+.input_username,
+.input_password {
+    padding: 4px 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+
+}
+.width_auto {
+    width: auto;
+}
+.mt-12 {
+    margin-top: 12px;
+}
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+#main_signIn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_signIn h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: -72px;
+
+}
+
+#main_signIn .content {
+    width: 550px;
+    height: 540px;
+    background-color: #DDE8F5;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main_signIn .form_signIn{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+#main_signIn .form_signIn .form_content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+
+}
+.btn_signIn{
+    width: 100%;
+    padding: 4px 8px;
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
