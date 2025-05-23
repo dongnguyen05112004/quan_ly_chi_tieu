@@ -22,6 +22,15 @@ const routes = [
     path: "/baocao",
     component: () => import("../components/baocao_thongke/baocao.vue"),
    },
+   {
+    path: "/dangky",
+    component: () => import("../components/dangky/index.vue"),
+   },
+      {
+    path: "/ngansach",
+    component: () => import("../components/ngansach/index.vue"),
+   },
+
    
 
     
