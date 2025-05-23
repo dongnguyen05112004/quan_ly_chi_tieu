@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.row {
+    margin-top: 8px;
+    margin-bottom: 8px; 
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.col-full {
+    width: 100%;
+}
+.col-half {
+    width: 50%;
+}
+.col-7 {
+    width: calc(100% /7);
+}
+
+.col-8 {
+    /* Đã tùy chỉnh width: kích thước không đúng như tên */
+    width: 13.78%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#main_admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main_admin .nav{
+    height: 69px;
+    width: 100%;
+    background-color: #DDE8F5;
+
+}
+#main_admin .nav .content{
+    /* float: right; */
+    /* padding: 4px; */
+    margin-right: 24px;
+    height: 69px;
+    line-height: 69px;
+    float: right;
+}
+#main_admin .nav .admin_avatar{
+    display: inline-block;
+    margin: 0 4px;
+    width: 24px;
+}
+#main_admin .admin_avatar img{
+    width: 24px;
+    border-radius: 12px;
+    margin-bottom: -5px;
+}
+#main_admin .nav .admin_username{
+    display: inline-block;
+    margin: 0 4px;
+    
+}
+
+#main_admin .nav .btn_DangXuat{
+    display: inline-block;
+    margin: 0 4px;
+    color: #07448C;
+    text-decoration: none;
+}
+#main_admin .nav .btn_DangXuat:hover {
+    opacity: 0.8;
+}
+#main_admin .content_admin {
+    height: 500px;
+    width: 1300px;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#main_admin .table_listItem{
+    max-height: 280px;
+    min-height: 280px;
+    /* background-color: #0000003b; */
+}
+
+#main_admin .table_heading.row {
+    padding: 6px;
+    background-color: #DDE8F5;
+    box-shadow: 0 1px 4px 0 #0000002c;
+} 
+
+#main_admin .table_listItem .row {
+    padding: 6px;
+}
+
+.buttons {
+    float: right;
+}
+
+.buttons .input_search{
+    padding: 4px 6px;
+    border-radius: 5px;
+    border: 1px solid #C4DAF5;
+    color: #84AAE3;
+}
+
+.buttons .btn_themTaiKhoan{
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #BBD2F4;
+    font-weight: bold;
+}
+.buttons .btn_themTaiKhoan:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.avatar {
+    width: 16px;
+    display: inline-block;
+    margin-right: -16px;
+}
+
+.avatar img {
+    width: 16px;
+}    
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder {
+    color: #84AAE3; /* Đổi màu chữ placeholder thành đỏ */
+    opacity: 1; /* Đảm bảo màu hiển thị rõ ràng */
+}
+
+.table_listItem .btn_option{
+    width: 28px;
+    display: inline-block;
+    padding: 4px;
+    position: relative;
+}
+.table_listItem .btn_option i:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0 , 0, 0.3);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.modal_ThemTaikhoan.open {
+    display: flex;
+}
+.modal.modal_SuaThongTin.open {
+    display: flex;
+}
+#modal_ThemTaiKhoan{
+
+
+}
+
+.modal_container{
+    width: 732px;
+    height: 475px;
+    background-color: #DDE8F5;
+    border-radius: 26px;
+    position: relative;
+
+}
+.modal_close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 8px;
+    padding: 8px;
+}
+.modal_close:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.modal_header {
+    margin: 12px;
+    text-align: center;
+}
+
+.modal_body {
+    width: 532px;
+    height: 292px;
+    /* background-color: #ddd; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.modal input {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #C4DAF5;
+    padding: 4px;
+}
+
+.modal p {
+    text-align: left;
+}
+
+.modal .btn_ThemMoi {
+    padding: 12px 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #BBD2F4;
+}
+
+.modal .btn_ThemMoi:hover { 
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.option_list.open {
+    display: block;
+}
+
+.option_list {
+    border: 1px solid #FEF7FF;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #7FB3FF;
+    width: 180px;
+    position: absolute;
+    /* right: 0; */
+    display: none;  
+}
+.option_list .btn{
+    width: 140px;
+    text-align: left;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: #BBD2F4;
+    border: none;
+    margin: 2px;
+}
+.option_list .btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.option_list .btn_XoaTaiKhoan {
+
+}
+
+.option_list .btn_SuaThongTin {
+
+}
+
+.option_list .btn_KhoaTaiKhoan {
+
+}
+
+.option_list .btn_KichHoatTaiKhoan {
+
+}

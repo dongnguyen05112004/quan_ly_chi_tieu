@@ -22,7 +22,16 @@ const routes = [
     path: "/baocao",
     component: () => import("../components/baocao_thongke/baocao.vue"),
    },
-   
+   {
+    path: "/dang-nhap",
+    component: () => import("../components/admin/dang-nhap.vue"),
+    meta: { layout: "blank" },
+   },
+   {
+    path: "/quan-ly-tai-khoan",
+    component: () => import("../components/admin/quan_ly_tai_khoan.vue"),
+    // meta: { layout: "blank" },
+   },
 
     
 ]
