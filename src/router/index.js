@@ -2,10 +2,7 @@ import { createRouter, createWebHistory } from "vue-router"; // cài vue-router:
 
 const routes = [
     
-   {
-    path: "/chu",
-    component: () => import("../components/admin/trangchu.vue"),
-   },
+   
    {
     path: "/thu",
     component: () => import("../components/thu_nhap_chi/thu.vue"),
@@ -17,6 +14,10 @@ const routes = [
    {
     path: "/thong-tin-ca-nhan",
     component: () => import("../components/khach_hang/thongtin.vue"),
+   },
+   {
+    path: "/danh-muc",
+    component: () => import("../components/khach_hang/quan_ly_dm.vue"),
    },
    {
     path: "/bao-cao",
