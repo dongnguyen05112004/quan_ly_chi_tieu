@@ -17,7 +17,12 @@ const routes = [
    {
     path: "/thong-tin-ca-nhan",
     component: () => import("../components/khach_hang/thongtin.vue"),
-   }
+   },
+   {
+    path: "/baocao",
+    component: () => import("../components/baocao_thongke/baocao.vue"),
+   },
+   
 
     
 ]

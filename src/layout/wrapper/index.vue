@@ -462,10 +462,10 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/btvn/btvnb12">
+                            <a class="nav-link" href="/baocao">
                                 <div class="parent-icon"><i class='bx bx-cookie'></i>
                                 </div>
-                                <div class="menu-title">....</div>
+                                <div class="menu-title">Báo cáo thống kê</div>
                             </a>
                         </li>
                     </ul>
